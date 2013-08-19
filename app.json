@@ -1,0 +1,58 @@
+{
+  "name": "JC",
+  "indexHtmlPath": "index.html",
+  "url": null,
+  "js": [
+    {
+      "path": "touch/sencha-touch.js",
+      "x-bootstrap": true
+    },
+    {
+      "path": "app.js",
+      "bundle": true,
+      "update": "delta"
+    }
+  ],
+  "css": [
+    {
+      "path": "resources/css/app.css",
+      "update": "delta"
+    }
+  ],
+  "appCache": {
+    "cache": [
+      "index.html",
+      "data/sessions.json",
+      "data/speakers.json",
+      "data/tracks.json",
+      "resources/fonts/ubuntu/Ubuntu-R-webfont.eot",
+      "resources/fonts/ubuntu/Ubuntu-R-webfont.woff",
+      "resources/fonts/ubuntu/Ubuntu-R-webfont.ttf",
+      "resources/fonts/ubuntu/Ubuntu-R-webfont.svg",
+      "resources/fonts/opensans/OpenSans-Regular-webfont.eot",
+      "resources/fonts/opensans/OpenSans-Regular-webfont.woff",
+      "resources/fonts/opensans/OpenSans-Regular-webfont.ttf",
+      "resources/fonts/opensans/OpenSans-Regular-webfont.svg"
+    ],
+    "network": [
+      "*"
+    ],
+    "fallback": []
+  },
+  "resources": [
+    "resources/fonts",
+    "resources/images",
+    "resources/icons",
+    "resources/startup",
+    "data"
+  ],
+  "ignore": [
+    ".svn$",
+    ".DS_Store",
+    ".gitignore",
+    ".git"
+  ],
+  "archivePath": "archive",
+  "requires": [],
+  "id": "d6e208e9-3f78-427b-93b3-d25807df0ae2"
+}

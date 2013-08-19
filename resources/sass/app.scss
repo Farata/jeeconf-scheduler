@@ -1,0 +1,78 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+
+$jeeconf-font-family: "OpenSansRegular", $font-family;
+$jeeconf-font-family-title: "UbuntuRegular", $jeeconf-font-family;
+
+// Add padding for session lists to leave the space for
+// carousel component's indicators.
+.session-list {
+  margin-bottom: $carousel-track-size;
+  font-family: $jeeconf-font-family;
+
+  .title {
+    font-family: $jeeconf-font-family-title
+
+  }
+  .disclosure-offset {
+    margin-right: $list-disclosure-size;
+  }
+}
+
+.session-details {
+  font-family: $jeeconf-font-family;
+
+  .title {
+    margin-bottom: 0;
+    line-height: 1.3em;
+    font-family: $jeeconf-font-family-title;
+  }
+
+  .speaker {
+    margin-bottom: 0.1em;
+  }
+
+  .description {
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.no-wrapping {
+  @include ellipsis;
+}
+
+.about {
+  .authors {
+    margin: 0;
+  }
+
+  .author {
+    margin: 0.5em 0 0.5em 3em;
+  }
+}
+
+.speaker-hint {
+  font-size: 0.8em;
+  margin-top: 0.1em;
+  color: #888;
+}
+
+.x-item-selected {
+  .speaker-hint {
+    color: #fff;
+  }
+}
+
+.x-title {
+  font-family: $jeeconf-font-family-title;
+}
+
+// Examples of using the icon mixin:
+// @include icon('user');

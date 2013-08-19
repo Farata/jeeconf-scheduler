@@ -1,0 +1,990 @@
+[
+   {
+      "id":3,
+      "tracks":[
+         2,
+         3,
+         4,
+         5
+      ],
+      "name":"Регистрация участников",
+      "description":"",
+      "speakers":[
+
+      ],
+      "startDate":"2013-05-24T09:00+03:00",
+      "endDate":"2013-05-24T09:40+03:00"
+   },
+   {
+      "id":4,
+      "tracks":[
+         2
+      ],
+      "name":"Открытие конференции",
+      "description":"",
+      "speakers":[
+
+      ],
+      "startDate":"2013-05-24T09:40+03:00",
+      "endDate":"2013-05-24T10:00+03:00"
+   },
+   {
+      "id":5,
+      "tracks":[
+         2
+      ],
+      "name":"JavaEE.Next(): Java EE 7, 8, and Beyond",
+      "description":"The Java EE 7 platform is soon coming your way and the horizons for Java EE 8 are emerging. This session looks into some of the key changes the community can expect. The goal of this session is to foster discussion, interest and participation around these changes. Some of the changes discussed include cloud support, retiring EJB 2 entity beans and JAX-RPC, greater alignment with CDI, the long-awaited Java EE concurrency utilities, WebSocket/HTML 5 support, a standard API for JSON processing, the next version of JAX-RS, an overhaul of JMS, batch processing in Java EE and much, much more.",
+      "speakers":[
+         {
+            "name":"Reza Rahman",
+            "id":4
+         }
+      ],
+      "startDate":"2013-05-24T10:00+03:00",
+      "endDate":"2013-05-24T10:50+03:00"
+   },
+   {
+      "id":6,
+      "tracks":[
+         3
+      ],
+      "name":"Taming Java Agents",
+      "description":"Java agents are pluggable self contained components that run embedded in a JVM and intercept the classloading process. They were introduced in Java 5 along with the powerful java.lang.instrument package. Java agents can be loaded statically at startup or dynamically (programmatically) at runtime to attach to a running process in a fail-safe fashion. Java agents were an awesome addition to the JVM as it opened a lot of opportunities for tool designers and changed Java tooling landscape quite drastically. In conjunction with Java bytecode manipulation libraries it is now possible to do amazing things to Java classes: we can experiment with programming models, redefine classes in runtime, record execution flow, etc. In this session I’d like to give an overview of Java agents’ functionality along with the usage examples and real world experiences. You will learn, how to implement an agent and apply Instrumentation API in combination with bytecode manipulation libraries to solve interesting tasks.",
+      "speakers":[
+         {
+            "name":"Олег Шелаев",
+            "id":17
+         }
+      ],
+      "startDate":"2013-05-24T10:00+03:00",
+      "endDate":"2013-05-24T10:50+03:00"
+   },
+   {
+      "id":7,
+      "tracks":[
+         4
+      ],
+      "name":"Mmmm… Clean code with Google Guava",
+      "description":"The Guava project contains several of Google’s core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth. There will be the slides presenting most useful and interesting features of Guava (v.12) that makes stuff simpler, better and code cleaner. We will cover most of the com.google.common.base.* classes and basic use of functions in collection and Google collections and few other features that are part of Guava and I find them very useful. Some of you will think that there is an overlap with Apache commons – and it’s true, but Guava is built with expectation that there is a Function and a Predicate class as well as various builders which makes it really cool and simple for many use cases.",
+      "speakers":[
+         {
+            "name":"Игорь Анищенко",
+            "id":37
+         }
+      ],
+      "startDate":"2013-05-24T10:00+03:00",
+      "endDate":"2013-05-24T10:50+03:00"
+   },
+   {
+      "id":8,
+      "tracks":[
+         2
+      ],
+      "name":"JDK8: Я, лямбда",
+      "description":"Скоро выходит JDK8, и там будут лямбды! А на докладе мы узнаем: что такое лямбды в контексте Java как они соотносятся с существующими примитивами языка лямбды – сахар или нет? как jsr292 победил javac сколько, где, и кому стоят лямбды плюшки, грабли, и прочие особенности",
+      "speakers":[
+         {
+            "name":"Серей Куксенко",
+            "id":7
+         }
+      ],
+      "startDate":"2013-05-24T11:00+03:00",
+      "endDate":"2013-05-24T11:50+03:00"
+   },
+   {
+      "id":9,
+      "tracks":[
+         3
+      ],
+      "name":"Speed up your Web applications with HTML5 WebSockets",
+      "description":"HTML5 specification includes the communication protocol WebSockets, which is getting more and more popular in the Wall Street real-time Web applications. WebSockets API is include in the upcoming Java EE 7 specification. WebSocket offers solution to the problems of latency, scalability and performance associated with HTTP based solutions like polling, long-polling and HTTP-streaming. Online auctions, financial trading applications, and multi-player games can benefit from implementing WebSockets. This session starts with a brief overview of traditional HTTP protocols followed by covering of how WebSockets works. You’ll see how using WebSockets removes the overhead of heavy HTTP request and response headers. Finally, we’ll review the code of the Web application, where WebSockets is used for the data exchange between HTML-based front end and the latest build of the Java server GlassFish 4.",
+      "speakers":[
+         {
+            "name":"Yakov Fain",
+            "id":3
+         }
+      ],
+      "startDate":"2013-05-24T11:00+03:00",
+      "endDate":"2013-05-24T11:50+03:00"
+   },
+   {
+      "id":10,
+      "tracks":[
+         4
+      ],
+      "name":"Spring Web Flow",
+      "description":"Шаблон MVC давно стал стандартом при разработке Web приложений. Если компоненты M и V этого шаблона (модель и представление) уже хорошо освоены и изучены на рынке, то C (контроллер) зачастую является темной лошадкой. Мы поговорим о Spring Web Flow 2.0, перспективной библиотеке от SpringSource, которая позволяет упростить разработку навигации внутри приложения. Вы узнаете о функциональности, которую предлагает эта библиотека, мы рассмотрим ее особенности и примеры практического использования. Доклад основан на 5-летнем практическом опыте работы с этой библиотекой.",
+      "speakers":[
+         {
+            "name":"Сергей Моренец",
+            "id":29
+         }
+      ],
+      "startDate":"2013-05-24T11:00+03:00",
+      "endDate":"2013-05-24T11:50+03:00"
+   },
+   {
+      "id":11,
+      "tracks":[
+         5
+      ],
+      "name":"Эксплуатация Clojure среди Java",
+      "description":"Clojure — достаточно выразительный язык, самая функциональная реализация которого построена в экосистеме JVM. В докладе будут рассмотрены возможности языка, которые существенно упрощают интеграцию кода на Clojure с чужим кодом на Java, практика организации (в том числе непрерывного) развертывания программ на Clojure внутри Apache Tomcat, а также инструменты интроспекции уже запущенных и работающих программ.",
+      "speakers":[
+         {
+            "name":"Владимир Кириллов",
+            "id":39
+         }
+      ],
+      "startDate":"2013-05-24T11:00+03:00",
+      "endDate":"2013-05-24T11:50+03:00"
+   },
+   {
+      "id":12,
+      "tracks":[
+         2
+      ],
+      "name":"Java Concurrency: битва за корректность",
+      "description":"Доклад про опыт тестирования concurrency в JDK/JVM, разного рода загадки и примеры как оптимизации и дефекты в реализации виртуальной машины и библиотек ломают модель памяти, и что нам с этим делать. Доклад *требует* знания JMM, понимания внутренней работы JRE, и устройства железа.",
+      "speakers":[
+         {
+            "name":"Алексей Шипилёв",
+            "id":6
+         }
+      ],
+      "startDate":"2013-05-24T12:00+03:00",
+      "endDate":"2013-05-24T12:50+03:00"
+   },
+   {
+      "id":13,
+      "tracks":[
+         3
+      ],
+      "name":"Stay sane. Test for real.",
+      "description":"It’s great to have a solid base of unit and integration tests; they give us confidence about the overall system integrity. But at the end of the day, it all amounts to whether our end users are happy using our application. So how can we keep the fail whale at bay and communicate with the stakeholders that the requirements are being met? Not too long ago, running tests that were going beyond isolation was a challenging task. This required a well thought out process as part of the automated build. Nowadays we are equipped with a “Swiss Army knife” for almost all aspects of testing. Along this journey, in the world of testing, we will take a closer look at some of these tools. We will learn that the Arquillian ecosystem is way more than just integration testing; it’s a comprehensive testing platform. We will dive into the concept of Acceptance Test Driven Development (ATDD) and demonstrate how to build higher-level, end-to-end functional tests; we will be emulating user interactions using the Arquillian Drone extension together with the open source browser automation tool Selenium. Reusable components like Page Objects will make our tests cleaner and easier to maintain. Eventually we will sugar coat them with a Groovy DSL for Behaviour Driven Development to achieve testing nirvana. If you care about quality of your software you definitely shouldn’t miss this talk!",
+      "speakers":[
+         {
+            "name":"Bartosz Majsak",
+            "id":15
+         }
+      ],
+      "startDate":"2013-05-24T12:00+03:00",
+      "endDate":"2013-05-24T12:50+03:00"
+   },
+   {
+      "id":14,
+      "tracks":[
+         4
+      ],
+      "name":"Introduction to functional programming in Scala",
+      "description":"Functional programming has been driving my personal development for the past couple of years. It all began with Clojure, but given its different syntax and a complete departure from what a common Java developer has learnt, Scala might be a better vehicle to drive people towards functional programming in JVM. That’s why I chose Scala and have been studying its functional flavor.I’m more into Scala for its functional aspect rather than as a way to develop Java applications with a higher-level language, without constructs that may have been itching you here and there. The presentation is based on my experience mostly gained from the book “Functional Programming in Scala” that I’m reviewing and Clojure (or should it be vice versa?) I’m not very good at developing applications in Scala (and wouldn’t very much argue hearing I’d rather stay away from speaking about or demoing Scala on conferences), but it may be the reason why people may like my presentation – I show the language from the perspective of a person who has just started the journey into the functional aspects of Scala and found some of its concept engaging.",
+      "speakers":[
+         {
+            "name":"Jacek Laskowski",
+            "id":9
+         }
+      ],
+      "startDate":"2013-05-24T12:00+03:00",
+      "endDate":"2013-05-24T12:50+03:00"
+   },
+   {
+      "id":16,
+      "tracks":[
+         2
+      ],
+      "name":"Surviving as a professional software developer",
+      "description":"During the last year’s JEEConf Yakov Fain made a presentation on how to become a professional software developer. This presentation is a sequel. Yakov will present his no-BS point of view on how enterprise IT shops live and operate. He’ll talk about communication skills, bad attitude, the team work, those stupid and useless IT managers, and how the life is unfair if young prodigies have to debug old and poorly-written code. This is not a technical presentation.",
+      "speakers":[
+         {
+            "name":"Yakov Fain",
+            "id":3
+         }
+      ],
+      "startDate":"2013-05-24T14:30+03:00",
+      "endDate":"2013-05-24T15:20+03:00"
+   },
+   {
+      "id":17,
+      "tracks":[
+         3
+      ],
+      "name":"The Power of Java7 NIO.2 essential stuff",
+      "description":"In this session hear how a leading financial services company uses Java 7 NIO.2. This session will covers all the important essential aspects involved in developing NIO.2-based applications. It provides clear instructions for getting the most out of NIO.2 and offers many case studies to spice up your Java 7 applications with the new I/O capabilities.",
+      "speakers":[
+         {
+            "name":"Mohamed Taman",
+            "id":10
+         }
+      ],
+      "startDate":"2013-05-24T14:30+03:00",
+      "endDate":"2013-05-24T15:20+03:00"
+   },
+   {
+      "id":18,
+      "tracks":[
+         4
+      ],
+      "name":"Разбираемся с OAuth2.0",
+      "description":"Мы разберемся с OAuth 2.0 Authorization Framework, который подымает безопасность Web 2.0 приложений на следующую ступеньку. Посмотрим, какие известные компании уже начали применять этот подход для своих web-сервисов, и разберемся, почему вам как web-разработчику нужно уже сейчас понимать “новый подход”. Окунемся в детали реализации и обсудим существующие OAuth 2.0 Java библиотеки и фреймворки, которые стоит посмотреть и попробовать.",
+      "speakers":[
+         {
+            "name":"Роман Шрамков",
+            "id":35
+         }
+      ],
+      "startDate":"2013-05-24T14:30+03:00",
+      "endDate":"2013-05-24T15:20+03:00"
+   },
+   {
+      "id":19,
+      "tracks":[
+         4
+      ],
+      "name":"Infinispan – громкое имя для JBoss Cache или еще одно NoSQL решение?",
+      "description":"JBoss Cache уже несколько лет как вырос из \"коротких штанишек\" и называется Infinispan. Сейчас это вполне серьезный Key-Value NoSQL со своими изюминками, такими как транзакционность. Попробуем разобраться детальнее как и в каких случаях имеет смысл его применять.",
+      "speakers":[
+         {
+            "name":"Виталий Тимчишин",
+            "id":5
+         }
+      ],
+      "startDate":"2013-05-24T14:30+03:00",
+      "endDate":"2013-05-24T15:20+03:00"
+   },
+   {
+      "id":20,
+      "tracks":[
+         4
+      ],
+      "name":"Избавьтесь от рутины конфигурации окружений JEE проектов с помощью Vagrant",
+      "description":"Если вы устали от постоянной траты времени на настройку окружения для вашего проекта или на поддержку окружения в актуальном состоянии, либо если вы разработчик с несколькими параллельными проектами и не хотите погрязнуть в попытке подружить несовместимые технологии на вашей рабочей машине, этот доклад для вас. Вы узнаете как можно эффективно использовать возможности виртуализации и сэкономить немного времени для более интересных задач.",
+      "speakers":[
+         {
+            "name":"Иззет Мустафаев",
+            "id":30
+         }
+      ],
+      "startDate":"2013-05-24T14:30+03:00",
+      "endDate":"2013-05-24T15:20+03:00"
+   },
+   {
+      "id":21,
+      "tracks":[
+         5
+      ],
+      "name":"Java Enterprise без Java?",
+      "description":"Сейчас часто задают вопрос: \"какой язык заменит Java?\". Но куда девать существующие технологии разработки корпоративных приложений? Эти технологии однозначно имеют ценность. Можно ли одновременно заменить язык программирования и при этом сохранить существующие наработки и сделанные инвестиции? Ответ «да». С помощью Polyglot JVM. Введение Polyglot JVM достигает двух целей: открывает путь инновациям и позволяет сохранить технологии Java в секторе enterprise. Этот доклад для разработчиков корпоративных приложений. Надеюсь, он поможет систематизировать знания по архитектуре серверных платформ на базе Java и, возможно, вдохновит расширить диапазон используемых языков. Проанализированы архитектуры серверных платформ: CORBA, Java EE, Spring, Akka. Enterprise технологии по сути не зависят от Java. Они работают на платформе Java, но имеют отдельную от Java ценность. Можно сохранить эту ценность и при этом изменить язык программирования для того, чтобы привнести инновации и преимущества других языков, например, функциональных или языков с динамической типизацией. Для этого необходимо выйти за пределы архитектуры серверной платформы и поискать фундамент, на котором построена серверная платформа. Этот фундамент – JVM. Серверная платформа и бизнес-логика могут быть написаны на разных языках, выполняемых на одной и той же JVM. Именно поэтому активно развивается направление Polyglot JVM.",
+      "speakers":[
+         {
+            "name":"Елена Сирота",
+            "id":18
+         }
+      ],
+      "SpeakerId":0,
+      "startDate":"2013-05-24T14:30+03:00",
+      "endDate":"2013-05-24T15:20+03:00"
+   },
+   {
+      "id":22,
+      "tracks":[
+         2
+      ],
+      "name":"Using NoSQL with JPA, EclipseLink and JavaEE",
+      "description":"This session explores how NoSQL solutions like MongoDB, Cassandra, Neo4j, HBase and CouchDB can be used with JPA and Java EE. Although the primary focus is on EclipseLink NoSQL, we will also cover Hibernate OGM, EasyCassandra, Morphia, etc as well as seeing how and when NoSQL can be used natively via basic CDI injection without JPA.",
+      "speakers":[
+         {
+            "name":"Reza Rahman",
+            "id":4
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":23,
+      "tracks":[
+         3
+      ],
+      "name":"Modularity in the Cloud: a Case Study",
+      "description":"Running in the cloud introduces many new challenges. How to deal with hot updates and auto-scaling for example? Modularity helps solving many of these challenges. In this presentation you will see how to create modular OSGi applications with RESTful web services, using MongoDB and cloud services such as BlobStores. You will also learn about deploying modular applications using Apache ACE and how to apply auto-scaling. Although the presentation gives real world examples, the session is highly technical and focussed on how developers could build and deploy applications with these kind of requirements. Examples will be based on an educational system focussed on personalized learning that is currently being implemented at several Dutch secondary schools. It is highly modular and completely runs in the cloud.",
+      "speakers":[
+         {
+            "name":"Sander Mak",
+            "id":11
+         },
+         {
+            "name":"Jan Willem Janssen",
+            "id":12
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":24,
+      "tracks":[
+         4
+      ],
+      "name":"Scala – essentials and step beyond",
+      "description":"Вы должны были заметить, что последнее время функциональная парадигма набирает все большие и большие обороты, уже сейчас вы можете попробовать ее в Java 8 EAP.Но давайте посмотрим в сторону самого мощного на сегодня функционального инструмента – Scala. Кроме своих функциональных возможностей, Scala является статически типизированным языком, включает ООП-парадигму и работает в JVM. Благодаря всему этому и при должных хороших манерах в написании кода Scala может полностью заменить Java во многих задачах.Данный доклад познакомит с некоторыми из основных инструментов Scala, которые позволяют на уровне языка решить многие из проблем изящнее и удобнее, чем с помощью Java. Join the ‘Scala’ side, we have implicits!",
+      "speakers":[
+         {
+            "name":"Роман Сорока",
+            "id":19
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":25,
+      "tracks":[
+         4
+      ],
+      "name":"Nashorn – the new JavaScript engine for JVM",
+      "description":"Nashorn is a new JavaScript engine written in pure Java. In this session you’ll get introduced to Nashorn and will get answers to the following questions: 1.What does it bring to the Java world? 2.What capabilities does it provide for the server and the client sides? 3. How can you leverage Nashorn in the real-life projects? You’ll also learn how can we use it today, even before Nashorn is integrated into public JDK8 builds.",
+      "speakers":[
+         {
+            "name":"Anton Moiseev",
+            "id":26
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":26,
+      "tracks":[
+         4
+      ],
+      "name":"Хороводы с Apache Cassandra",
+      "description":"В докладе поделюсь опытом выбора решения для распределенного хранения данных. Расскажу, какие аспекты помогли нам остановиться на Apache Cassandra, какие моменты мы упустили и как с этим живут пользователи. Доклад содержит описание определенного количества граблей и соответственно будет полезен тем, кто любит учиться на чужих шишках.",
+      "speakers":[
+         {
+            "name":"Иван Соболев",
+            "id":20
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":27,
+      "tracks":[
+         4
+      ],
+      "name":"Gradle: MongoDB Java Driver Experience",
+      "description":"Gradle – эволюционный виток развития систем автоматической сборки проектов. Комбинируя в себе гибкость Ant и структурированность Maven, Gradle предоставляет блестящие решения для многих задач автоматизации, что вытекает в рост производительности, простоту поддержки, расширяемость и стандартизацию. В этом докладе мы пройдемся по таким аспектам, как преимущества декларативных систем сборки над императивными, оптимизацию через инкрементальность и частичные сборки, интеграцию с существующими Maven и Ant конфигурациями и стратегии перехода с них на Gradle.",
+      "speakers":[
+         {
+            "name":"Владимир Мигуро",
+            "id":31
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":28,
+      "tracks":[
+         5
+      ],
+      "name":"Banshun – очередной 'убийца' OSGi",
+      "description":"Года три назад нам пришлось создавать платформу для eCommerce backend-а. Некоторое время погенерировали OSGi-манифесты bundlor-ом, затем решили подумать: “Зачем так сложно?”. Появились сомнения: загрузчик классов один (Spring Web App), зависимости разрешаются Maven-ом во время сборки, частичного перезапуска компонентов приложения нет.",
+      "speakers":[
+         {
+            "name":"Михаил Хлуднев",
+            "id":32
+         }
+      ],
+      "startDate":"2013-05-24T15:30+03:00",
+      "endDate":"2013-05-24T16:20+03:00"
+   },
+   {
+      "id":29,
+      "tracks":[
+         2
+      ],
+      "name":"Picking a JVM Language, which one is right for you? (part 1)",
+      "description":"Over the past few years a few JVM languages have gained adoption. Suppose on your next project, you’re asked to use an alternate language. Which one would you pick? In this presentations, we’ll put our personal biases away, look far beyond the syntax, and into the capabilities, the strengths and weaknesses of select prominent JVM languages. We will objectively compare them and create a configurable metric that will help us select the right language for that next project.",
+      "speakers":[
+         {
+            "name":"Dr. Venkat Subramaniam",
+            "id":2
+         }
+      ],
+      "startDate":"2013-05-24T17:00+03:00",
+      "endDate":"2013-05-24T17:50+03:00"
+   },
+   {
+      "id":30,
+      "tracks":[
+         3
+      ],
+      "name":"JIT-компилятор в JVM глазами Java-программиста",
+      "description":"Наверное, каждый программист серьезно задумывался о том, как и насколько быстро будет работать написанный им код. Для каких-либо выводов необходимы экспериментальные данные, но и для объяснения различий в результатах регулярно требуется понимание происходящего в системе. Для Java приложений такой анализ усложняется необходимостью учитывать поведение JVM.",
+      "speakers":[
+         {
+            "name":"Владимир Иванов",
+            "id":14
+         }
+      ],
+      "startDate":"2013-05-24T17:00+03:00",
+      "endDate":"2013-05-24T17:50+03:00"
+   },
+   {
+      "id":31,
+      "tracks":[
+         4
+      ],
+      "name":"Красная книга веб-разработчика",
+      "description":"Миллиарды людей по всему миру открывают веб-браузер утехи или работы ради. Сотни тысяч разработчиков, дизайнеров, тестировщиков и т.д., создают все новые и новые приложения для этих самых миллиардов. Тысячи языков программирования, помогают предыдущим ребятам. И Java один из таких языков!",
+      "speakers":[
+         {
+            "name":"Виктор Полищук",
+            "id":22
+         }
+      ],
+      "startDate":"2013-05-24T17:00+03:00",
+      "endDate":"2013-05-24T17:50+03:00"
+   },
+   {
+      "id":32,
+      "tracks":[
+         5
+      ],
+      "name":"Extreme Programming practices for your team",
+      "description":"Extreme Programming had some momentum as a practiced agile method in the beginning of last decade. But then SCRUM took over the lead and soft, PM-oriented practices started dominating the agile software development movement and thinking. Focusing purely on the PM side without strong technical background and practices has made a good few teams fail their projects and get back to the old-school waterfallish methods. In the presentation I’ll be talking about implementing technical practices of XP in your teams and projects. How to start using them, what to watch out for and how to make them stick. I’ll be talking about implementing TDD, Pair-Programming, Collective Code Ownership and Continuous Integration and Continuous Delivery – which should constitute a tooling of any contemporary agile team.",
+      "speakers":[
+         {
+            "name":"Paweł Lipiński",
+            "id":38
+         }
+      ],
+      "startDate":"2013-05-24T17:00+03:00",
+      "endDate":"2013-05-24T17:50+03:00"
+   },
+   {
+      "id":33,
+      "tracks":[
+         2
+      ],
+      "name":"Picking a JVM Language, which one is right for you? (part 2)",
+      "description":"Over the past few years a few JVM languages have gained adoption. Suppose on your next project, you’re asked to use an alternate language. Which one would you pick? In this presentations, we’ll put our personal biases away, look far beyond the syntax, and into the capabilities, the strengths and weaknesses of select prominent JVM languages. We will objectively compare them and create a configurable metric that will help us select the right language for that next project.",
+      "speakers":[
+         {
+            "name":"Dr. Venkat Subramaniam",
+            "id":2
+         }
+      ],
+      "startDate":"2013-05-24T18:00+03:00",
+      "endDate":"2013-05-24T18:50+03:00"
+   },
+   {
+      "id":34,
+      "tracks":[
+         3
+      ],
+      "name":"Быстрая разработка приложений (Java style)",
+      "description":"JRebel делает процесс разработки Java приложений быстрее, эффективнее и, пожалуй, интереснее. JRebel создает виртуальную отображение приложения на файловую систему и умеет считывать изменения класс-файлов для того, чтобы незамедлительно отобразить их в работающем приложении. Больше никаких пауз для редеплоя!",
+      "speakers":[
+         {
+            "name":"Олег Шелаев",
+            "id":17
+         }
+      ],
+      "startDate":"2013-05-24T18:00+03:00",
+      "endDate":"2013-05-24T18:50+03:00"
+   },
+   {
+      "id":35,
+      "tracks":[
+         4
+      ],
+      "name":"Как вернуть Java былую славу?",
+      "description":"В настоящее время Java все ещё сохраняет позиции самого популярного языка программирования для разработки корпоративных систем и приложений. К сожалению, достаточно быстро эти системы превращаются в нечто огромное, неповоротливое и невероятно сложное для поддержки, и в то же время не приносящее слишком много пользы. Это приводит к тому, что разработчики начинают прибегать к альтернативным языкам и технологиям, хотя проблема лежит не столько в самом языке, сколько в архитекуре и дизайне, которые часто используются при разработке таких систем на Java. Может быть нам надо сперва исправить свое отношение к написанию приложений? Я покажу, как это можно сделать.",
+      "speakers":[
+         {
+            "name":"Антон Кекс",
+            "id":16
+         }
+      ],
+      "startDate":"2013-05-24T18:00+03:00",
+      "endDate":"2013-05-24T18:50+03:00"
+   },
+   {
+      "id":36,
+      "tracks":[
+         2,
+         3,
+         4,
+         5
+      ],
+      "name":"Регистрация участников",
+      "description":"",
+      "speakers":[
+
+      ],
+      "startDate":"2013-05-25T09:00+03:00",
+      "endDate":"2013-05-25T09:50+03:00"
+   },
+   {
+      "id":37,
+      "tracks":[
+         2
+      ],
+      "name":"Открытие второго дня конференции",
+      "description":"",
+      "speakers":[
+
+      ],
+      "startDate":"2013-05-25T09:50+03:00",
+      "endDate":"2013-05-25T10:00+03:00"
+   },
+   {
+      "id":38,
+      "tracks":[
+         2
+      ],
+      "name":"Programming with Actors (part 1)",
+      "description":"Actor based concurrency was popularized by languages like Erlang and Scala. This model of programming provides isolated mutability (as opposed to shared mutability) and easy way to implement coordinating processes or tasks. Actors can be local to a JVM, or distributed across VMs and machines. In this presentation we will learn how to use Akka Actors to design and implement distributed concurrent Java applications.",
+      "speakers":[
+         {
+            "name":"Dr. Venkat Subramaniam",
+            "id":2
+         }
+      ],
+      "startDate":"2013-05-25T10:00+03:00",
+      "endDate":"2013-05-25T10:50+03:00"
+   },
+   {
+      "id":39,
+      "tracks":[
+         3
+      ],
+      "name":"Формальная верификация как средство тестирования в Java",
+      "description":"Насколько формальная верификация применима на практике? Как то, что применимо, соотносится с традиционными способами тестирования, такими как динамическое и статическое тестирование? Какие виды ошибок она помогает находить, насколько эффективно использование данного подхода? Мы постараемся передать всю боль испытываемую нами при тестировании Oracle JDK традиционными средствами. Мы покажем какие инструменты и какие фичи языка Java позволят нам и вам, разработчикам продуктов на Java, сэкономить на тестировании, переложив часть ответственности на средства формальной верификации.",
+      "speakers":[
+         {
+            "name":"Александр Ильин",
+            "id":13
+         },
+         {
+            "name":"Владимир Иванов",
+            "id":14
+         }
+      ],
+      "startDate":"2013-05-25T10:00+03:00",
+      "endDate":"2013-05-25T10:50+03:00"
+   },
+   {
+      "id":40,
+      "tracks":[
+         4
+      ],
+      "name":"Тонкости поиска в Lucene",
+      "description":"Доклад изначально задумывался как учебный материал для быстрого погружения новичков в тонкости алгоритмов поиска в общем и в Lucene в частности. В дальнейшем был дополнен богатым опытом нашей команды eCommerce поиска, перечислением грабель, примерами наших хаков, смешными случаями. Рассмотрим несколько примеров создания собственных запросов и неочевидных проблем на этом пути. Также рассмотрим некоторые крайние случаи при которых Lucene имеет большие проблемы со скоростью.",
+      "speakers":[
+         {
+            "name":"Михаил Хлуднев",
+            "id":32
+         }
+      ],
+      "startDate":"2013-05-25T10:00+03:00",
+      "endDate":"2013-05-25T10:50+03:00"
+   },
+   {
+      "id":41,
+      "tracks":[
+         2
+      ],
+      "name":"Programming with Actors (part 2)",
+      "description":"Actor based concurrency was popularized by languages like Erlang and Scala. This model of programming provides isolated mutability (as opposed to shared mutability) and easy way to implement coordinating processes or tasks. Actors can be local to a JVM, or distributed across VMs and machines. In this presentation we will learn how to use Akka Actors to design and implement distributed concurrent Java applications.",
+      "speakers":[
+         {
+            "name":"Dr. Venkat Subramaniam",
+            "id":2
+         }
+      ],
+      "startDate":"2013-05-25T11:00+03:00",
+      "endDate":"2013-05-25T11:50+03:00"
+   },
+   {
+      "id":42,
+      "tracks":[
+         3
+      ],
+      "name":"Эффективная работа с кодом в IntelliJ IDEA",
+      "description":"IntelliJ IDEA – популярная среда разработки (IDE) от компании JetBrains, облегчающая написание кода на Java и других языках. Но IDE – это всего лишь инструмент, и эффективность при работе с ней зависит от того, насколько грамотно вы её используете. К сожалению, многие пользуются лишь частью возможностей, предоставляемых IntelliJ IDEA. В докладе на конкретных примерах будет показано, как лучше всего писать тот или иной код в IntelliJ IDEA, какие фичи помогают это делать, как узнавать о возможных проблемах в коде при помощи IDE и как их исправлять, как безопасно рефакторить существующий код. Будет рассказано о некоторых скрытых возможностях IDE и о том, как можно самому найти другие интересные фичи IDE, которые вы ещё не использовали.",
+      "speakers":[
+         {
+            "name":"Николай Чашников",
+            "id":27
+         }
+      ],
+      "startDate":"2013-05-25T11:00+03:00",
+      "endDate":"2013-05-25T11:50+03:00"
+   },
+   {
+      "id":43,
+      "tracks":[
+         4
+      ],
+      "name":"Зачем нужен Kotlin, если будет Java 8?",
+      "description":"Kotlin – это статически типизированный язык программирования, разрабатываемый в компании JetBrains. Kotlin компилируется в байт-код для JVM и полностью совместим с Java, то есть код на Kotlin и Java можно легко использовать в одном проекте. Доклад будет посвящен различиям между Kotlin и Java (преимущественно Java 8).",
+      "speakers":[
+         {
+            "name":"Евгений Геращенко",
+            "id":24
+         },
+         {
+            "name":"Наталья Ухорская",
+            "id":25
+         }
+      ],
+      "startDate":"2013-05-25T11:00+03:00",
+      "endDate":"2013-05-25T11:50+03:00"
+   },
+   {
+      "id":44,
+      "tracks":[
+         5
+      ],
+      "name":"Панельная сессия с экспертами",
+      "description":"",
+      "speakers":[
+         {
+            "name":"Сергей Куксенко",
+            "id":7
+         },
+         {
+            "name":"Алексей Шипилёв",
+            "id":6
+         }
+      ],
+      "startDate":"2013-05-25T11:00+03:00",
+      "endDate":"2013-05-25T11:50+03:00"
+   },
+   {
+      "id":45,
+      "tracks":[
+         2
+      ],
+      "name":"JDK8: Молот лямбд",
+      "description":"В докладе рассматриваются изменения в JVM/JDK, напрямую связанные с введением в язык лямбда-выражений: изменения в коллекциях и bulk collection operations, default-методы, и прочие интересности. Доклад рекомендуется уже посетившим доклад “Я, лямбда”, или знающим о синтаксисе и семантике лямбд из других доверенных источников.",
+      "speakers":[
+         {
+            "name":"Сергей Куксенко",
+            "id":7
+         }
+      ],
+      "startDate":"2013-05-25T12:00+03:00",
+      "endDate":"2013-05-25T12:50+03:00"
+   },
+   {
+      "id":46,
+      "tracks":[
+         3
+      ],
+      "name":"The Power of Java7 NIO.2 advanced concepts",
+      "description":"In this session hear how a leading financial services company uses Java 7 NIO.2. This session will covers all the important aspects involved in developing advanced NIO.2-based applications. It provides clear instructions for getting the most out of NIO.2 and offers many case studies to spice up your Java 7 applications with the new I/O capabilities.",
+      "speakers":[
+         {
+            "name":"Mohamed Taman",
+            "id":10
+         }
+      ],
+      "startDate":"2013-05-25T12:00+03:00",
+      "endDate":"2013-05-25T12:50+03:00"
+   },
+   {
+      "id":47,
+      "tracks":[
+         4
+      ],
+      "name":"Effective messaging for Java applications",
+      "description":"Тяжело представить в современном мире распределенную масштабируемую систему, работающую на основе синхронного взаимодействия своих компонентов. Обмен сообщениями является неотъемлемым инструментом при построении большинства систем. В докладе будут рассмотрены советы и практики для повышения его эффективности, разнообразные грабли, на которые можно наступить по незнанию, а также особенности использования различных провайдеров/протоколов сообщений для обеспечения надежной и быстрой коммуникации. Я расскажу о своем опыте использования ActiveMQ и RabbitMQ, построения своих брокеров сообщений на базе Cassandra.",
+      "speakers":[
+         {
+            "name":"Николай Алименков",
+            "id":1
+         }
+      ],
+      "startDate":"2013-05-25T12:00+03:00",
+      "endDate":"2013-05-25T12:50+03:00"
+   },
+   {
+      "id":48,
+      "tracks":[
+         5
+      ],
+      "name":"Join JCP Adopt JSR program",
+      "description":"This talk is intended to give as idea about what is JCP and Adopt JSR program for those developers who are not familiar with it yet, to explain why this is a right thing to do and to show how easy to join and be involved. This is another step towards JCP openess and transparency and another try to involve more talented and passionate delelopers into moving Java forward.",
+      "speakers":[
+         {
+            "name":"Олег Цаль-Цалько",
+            "id":40
+         },
+         {
+            "name":"Елена Сирота",
+            "id":18
+         }
+      ],
+      "startDate":"2013-05-25T12:00+03:00",
+      "endDate":"2013-05-25T12:50+03:00"
+   },
+   {
+      "id":50,
+      "tracks":[
+         2
+      ],
+      "name":"Не по дням, а по часам! Вертикальное и горизонтальное масштабирование Java приложений.",
+      "description":"Ваше приложение становится популярным и у вас наплыв посетителей? Сайт уже не справляется с нагрузкой, а клиентов все больше и больше… В этом докладе я расскажу о том, как надо проектировать приложения, чтобы они могли выдержать свалившуюся на них славу и неожиданный поток клиентов, приемы вертикального и горизонтального масштабирования, преимущества и недостатки каждого подхода, узкие места и потенциальные проблемы. В том числе будут приведены примеры практической реализации обоих видов масштабирования в облачной платформе Jelastic.",
+      "speakers":[
+         {
+            "name":"Руслан Синицкий",
+            "id":23
+         }
+      ],
+      "startDate":"2013-05-25T14:30+03:00",
+      "endDate":"2013-05-25T15:20+03:00"
+   },
+   {
+      "id":51,
+      "tracks":[
+         3
+      ],
+      "name":"High-Performance Fork/Join in Java",
+      "description":"Уже давно в JDK появилась поддержка вычислений, ложащихся в модель, ложащихся в модель Fork/Join. Доклад посвящен тому, что делает реализацию ForkJoinPool важным звеном в производительности параллельных операций над коллекциями в JDK8, в работе актёров в Scala/Akka, и других сценариях. Посмотрим на явные ограничения и подводные камни, разные модели использования: рекурсивные джойны, эмуляция continuation’ов и проч.",
+      "speakers":[
+         {
+            "name":"Алексей Шипилёв",
+            "id":6
+         }
+      ],
+      "startDate":"2013-05-25T14:30+03:00",
+      "endDate":"2013-05-25T15:20+03:00"
+   },
+   {
+      "id":52,
+      "tracks":[
+         4
+      ],
+      "name":"Introduction to web application development in Clojure",
+      "description":"This is a talk about Clojure as a tool to develop web applications with leiningen, Compojure and Enlive (you could be using different set of projects, but since most if not all are based on Ring, the knowledge gained on this presentation should be easily applicable to other project sets, too). During the presentation I demonstrate the tools needed to set up a complete environment for web development. It’s gonna be very easy to follow for people who want to start developing *something* in Clojure. The presentation is used as a vehicle to drive people towards a fictitious but research-oriented project to study functional concepts of Clojure further.",
+      "speakers":[
+         {
+            "name":"Jacek Laskowski",
+            "id":9
+         }
+      ],
+      "startDate":"2013-05-25T14:30+03:00",
+      "endDate":"2013-05-25T15:20+03:00"
+   },
+   {
+      "id":53,
+      "tracks":[
+         5
+      ],
+      "name":"Не будьте J2EE динозавром, сфокусируйтесь на коде, который имеет значение",
+      "description":"Использование облачных бэкендов при написании приложений – не дань моде, а новый тренд. Как правило, функционал и требования к серверной части повторяются от проекта к проекту: отказоустойчивость и масштабирование, управление пользователями (регистрация, логин, логаут, геолокация), publish/subscribe сообщения, push уведомления, управление данными, медиа сервисы. Логично, что написание повторяющегося кода с одинаковыми функциями неумолимо автоматизируется. На конкретных примерах мы рассмотрим насколько сильно можно упростить разработку бэкенда и как автоматическая кодогенерация изменит отрасль в будущем.",
+      "speakers":[
+         {
+            "name":"Сергей Кукурудзяк",
+            "id":34
+         }
+      ],
+      "startDate":"2013-05-25T14:30+03:00",
+      "endDate":"2013-05-25T15:20+03:00"
+   },
+   {
+      "id":54,
+      "tracks":[
+         2
+      ],
+      "name":"Уменьшение расхода оперативной памяти в Java-приложениях",
+      "description":"Если вы устали от поиска утечек памяти в Java приложениях, не знаете как хранить большие объемы данных в “куче”, то этот доклад для вас. В докладе будут как описаны детали реализации, позволяющие оценивать расход памяти, так и даны конкретные советы, помогающие снизить потребление памяти. Вы услышите про особенности представления Java-объектов в памяти, тонкости процесса финализации, для чего нужны слабые ссылки, сжатые указатели в HotSpot JVM и много чего другого.",
+      "speakers":[
+         {
+            "name":"Владимир Иванов",
+            "id":14
+         }
+      ],
+      "startDate":"2013-05-25T15:30+03:00",
+      "endDate":"2013-05-25T16:20+03:00"
+   },
+   {
+      "id":55,
+      "tracks":[
+         3
+      ],
+      "name":"Обзор нововведений в java.util.concurrent (JSR166e)",
+      "description":"Пакет JSR 166e – это классы java.util.concurrent, которые появятся в JDK8. В частности, новый ConcurrentHashMap и StampedLock. Доклад про то, как устроены базовые классы, и почему они хорошо работают в условиях многопоточности. Будут описаны ситуации, в которых стоит или не стоит использовать известные альтернативы, и какой прирост производительности можно ожидать.",
+      "speakers":[
+         {
+            "name":"Дмитрий Чуйко",
+            "id":21
+         }
+      ],
+      "startDate":"2013-05-25T15:30+03:00",
+      "endDate":"2013-05-25T16:20+03:00"
+   },
+   {
+      "id":56,
+      "tracks":[
+         4
+      ],
+      "name":"Easy Scaling with Open Source Data Structures",
+      "description":"Today’s applications are getting more and more distributed everyday and it is well-known that distributed programming is hard. With Hazelcast though, distributed programming is easy and lots of fun. A common reaction of Hazelcast users is ‘Ooh my God, this cannot be that easy’. Hazelcast is an open source, highly scalable, transactional, distributed/partitioned implementation of queue, map, set, list, lock and executor services for Java. Hazelcast is for you if you like to easily: share data/state among many servers (e.g. web session sharing), cache your data (distributed cache), cluster your application, partition your in-memory data, send/receive messages among applications, distribute workload onto many servers, take advantage of parallel processing or provide fail-safe data management.",
+      "speakers":[
+         {
+            "name":"Talip Ozturk",
+            "id":8
+         }
+      ],
+      "startDate":"2013-05-25T15:30+03:00",
+      "endDate":"2013-05-25T16:20+03:00"
+   },
+   {
+      "id":57,
+      "tracks":[
+         5
+      ],
+      "name":"Spring integration: building blocks for message driven architecture",
+      "description":"Одним из самых популярных способов построения распределенных масштабируемых систем является построение их на базе обмена сообщениями в той или иной форме. Spring integration в свою очередь предоставляет набор основных примитивов, необходимых для построения таких приложений. В докладе мы рассмотрим основные инструменты и концепты Spring Integration, которые предоставляют нам возможность как создать приложение, полностью построенное в рамках парадигмы обмена сообщениями, так и легко расширить существующее, используя только необходимый минимум инструментов.",
+      "speakers":[
+         {
+            "name":"Роман Сорока",
+            "id":19
+         }
+      ],
+      "startDate":"2013-05-25T15:30+03:00",
+      "endDate":"2013-05-25T16:20+03:00"
+   },
+   {
+      "id":59,
+      "tracks":[
+         2
+      ],
+      "name":"The Art of Simplicity",
+      "description":"We’ve been told to keep things simple. It turns out, that’s easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That’s a simple question, but the answer to it is… well come to this talk to find out.",
+      "speakers":[
+         {
+            "name":"Dr. Venkat Subramaniam",
+            "id":2
+         }
+      ],
+      "startDate":"2013-05-25T17:00+03:00",
+      "endDate":"2013-05-25T17:40+03:00"
+   },
+   {
+      "id":60,
+      "tracks":[
+         3
+      ],
+      "name":"Структурируем большое приложение с помощью OSGi",
+      "description":"Если вы часто используете IoC контейнер (например Spring), то должны были замечать, что с ростом приложения ваши контексты начинают напоминать взрыв на макаронной фабрике. OSGi даст вам возможность лучше связать и настроить ваши модули, поможет при разворачивании приложения и предоставит средства контроля.",
+      "speakers":[
+         {
+            "name":"Виталий Тимчишин",
+            "id":5
+         }
+      ],
+      "startDate":"2013-05-25T17:00+03:00",
+      "endDate":"2013-05-25T17:40+03:00"
+   },
+   {
+      "id":61,
+      "tracks":[
+         4
+      ],
+      "name":"Выбор фреймворков реализации ORM и пользовательского интерфейса для корпоративного приложения",
+      "description":"Краткий обзор архитектуры наших приложений и выбранного стека технологий – Spring, OpenJPA, Vaadin.",
+      "speakers":[
+         {
+            "name":"Константин Кривопустов",
+            "id":33
+         }
+      ],
+      "startDate":"2013-05-25T17:00+03:00",
+      "endDate":"2013-05-25T17:40+03:00"
+   },
+   {
+      "id":62,
+      "tracks":[
+         5
+      ],
+      "name":"Next stop: Spring 4",
+      "description":"In this talk I’m going to go through latest features being added in Spring 3.1/3.2 one more time and also will try to look behind the scene on what new features are comming in Spring 4 which should be released at the end of this year.",
+      "speakers":[
+         {
+            "name":"Олег Цаль-Цалько",
+            "id":40
+         }
+      ],
+      "startDate":"2013-05-25T17:00+03:00",
+      "endDate":"2013-05-25T17:40+03:00"
+   },
+   {
+      "id":63,
+      "tracks":[
+         2
+      ],
+      "name":"The Art of Simplicity",
+      "description":"We’ve been told to keep things simple. It turns out, that’s easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That’s a simple question, but the answer to it is... well come to this talk to find out.",
+      "speakers":[
+         {
+            "name":"Dr. Venkat Subramaniam",
+            "id":2
+         }
+      ],
+      "startDate":"2013-05-25T17:50+03:00",
+      "endDate":"2013-05-25T18:30+03:00"
+   },
+   {
+      "id":64,
+      "tracks":[
+         3
+      ],
+      "name":"Покрытие кода. Прагматичный подход.",
+      "description":"Измерили покрытие кода – что дальше? Поднимать покрытие? Нужно ли? Если да – что покрывать сначала? С практичеcкой стороны, способы использования данных о покрытии кода можно разбить на категории: метрики, идентификация тестов (существующих или необходимых) и идентификация мертвого кода.Я постараюсь рассказать о том что означает 100% покрытие кода (block/line/branch, etc.), о некоторых распространенных заблуждениях, о “хороших” метриках базирующихся на покрытии, о связи данных о покрытии с другими характеристиками исходного кода для приоритезации разработки тестов – все для того чтобы показать как можно практически применить данные о покрытии кода с пользой для продукта.",
+      "speakers":[
+         {
+            "name":"Александр Ильин",
+            "id":13
+         }
+      ],
+      "startDate":"2013-05-25T17:50+03:00",
+      "endDate":"2013-05-25T18:30+03:00"
+   },
+   {
+      "id":65,
+      "tracks":[
+         4
+      ],
+      "name":"Spring Data – новый взгляд на persistence",
+      "description":"На сегодняшний день большое число приложений содержит более одного хранилища данных. Реляционные и нереляционные базы данных, кеши и data grid. Необходимо быстро и качественно организовывать работу со всеми хранилищами при этом соблюдая некое однообразие в интерфейсе взаимодействия. Данную задачу успешно решает проект Spring Data. Я хотел бы на примере показать как Spring Data облегчает жизнь при работе со старым-добрым JPA, а также какие возможности предоставляет при работе с NoSQL решениями.",
+      "speakers":[
+         {
+            "name":"Алексей Резчиков",
+            "id":28
+         }
+      ],
+      "startDate":"2013-05-25T17:50+03:00",
+      "endDate":"2013-05-25T18:30+03:00"
+   },
+   {
+      "id":66,
+      "tracks":[
+         2
+      ],
+      "name":"Закрытие конференции",
+      "description":"",
+      "speakers":[
+
+      ],
+      "startDate":"2013-05-25T18:40+03:00",
+      "endDate":"2013-05-25T19:00+03:00"
+   }
+]

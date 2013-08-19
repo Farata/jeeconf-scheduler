@@ -1,0 +1,362 @@
+[
+	{
+		"id":1,
+		"firstName": "Николай",
+		"lastName" : "Алименков",
+		"company": "XP Injection / ZoralLabs",
+		"country":"Украина",
+		"imageUrl":"",
+		"bio":"Практикующий Java технический лидер и Scrum Master. Эксперт в разработке на Java, Agile инженерных практиках и управлении проектами. Разрабатывает на Java более 8 лет, специализируется на разработке сложных распределенных масштабируемых систем. Активный участник и докладчик многих международных конференций. Основатель и тренер тренинг-центра XP Injection. Организатор и идеолог конференций Selenium Camp, JEEConf, XP Days Ukraine и IT Brunch. Основатель действующего 'Клуба анонимных разработчиков' (uadevclub)."
+		},
+	{
+		"id":2,
+		"firstName": "Venkat",
+		"lastName" : "Subramaniam",
+		"company": "Agile Developer",
+		"country":"USA",
+		"imageUrl":"",
+		"bio":"Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., and an adjunct faculty at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with agile practices on their software projects. Venkat is the author of '.NET Gotchas,' the coauthor of 2007 Jolt Productivity Award winning 'Practices of an Agile Developer', the author of 'Programming Groovy: Dynamic Productivity for the Java Developer' and 'Programming Scala: Tackle Multi-Core Complexity on the Java Virtual Machine' (Pragmatic Bookshelf). His latest book is 'Programming Concurrency on the JVM: Mastering synchronization, STM, and Actors'."
+	},
+	{
+		"id":3,
+		"firstName": "Yakov",
+		"lastName" : "Fain",
+		"company": "Farata Systems",
+		"country":"USA",
+		"imageUrl":"",
+		"bio":"Yakov Fain is Managing Partner at a software boutique Farata Systems (USA). He authored several technical books and lots of articles on software development. His book 'Java Programming. 24-Hour Trainer' was published by Wrox in 2011, and Yakov sweared this was going to be his last technical book. Sun Microsystems has nominated and awarded Mr. Fain with the title of Java Champion. Yakov's personal blog is located at yakovfain.com. Currently he works with his colleagues at Farata on a book for O’Relly on enterprise Web development."
+	},
+	{
+		"id":4,
+		"firstName": "Reza",
+		"lastName" : "Rahman",
+		"company": "Oracle",
+		"country":"USA",
+		"imageUrl":"",
+		"bio":"Reza Rahman is a Java EE/GlassFish evangelist. He is the author of the popular book “EJB 3 in Action”. Reza is a frequent speaker at Java User Groups and conferences worldwide including JavaOne. He is an avid contributor to industry journals like TheServerSide. Reza has been a member of the Java EE, EJB and JMS expert groups. He implemented the EJB container for the Resin open source Java EE application server. Reza has over a decade of experience with technology leadership, enterprise architecture, application development and consulting. He has been working with Java EE technology since its inception, developing on almost every major application platform ranging from Tomcat to JBoss, GlassFish, WebSphere and WebLogic. Reza has developed enterprise systems for well-known companies like eBay, Motorola, Comcast, Nokia, Prudential, Guardian Life, USAA, Independence Blue Cross and AAA using EJB 2, EJB 3, Spring and Seam."
+	},
+	{
+	"id":5,
+	"firstName": "Виталий",
+	"lastName" : "Тимчишин",
+	"company": "Luxoft",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Виталий занимается разработкой и проектированием систем на языке Java более 9 лет. Имеет большой опыт работы с коммуникационными протоколами, базами данных и многопоточными приложениями, является экспертом в разработке и внедрении сложных неоднородных систем. На текущий момент занимается проектированием, разработкой и внедрением Java инфраструктуры для банковских систем связи повышеной надежности."
+	},
+	{
+	"id":6,
+	"firstName": "Алексей",
+	"lastName" : "Шипилёв",
+	"company": "Oracle",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Oracle, Java Performance Engineer. За последнее время Алексей успел позаниматься Apache Harmony в Intel, затем перешёл в Sun Microsystems, а потом и в Oracle, где сегодня работает над Sun/Oracle JDK, в том числе над производительностью JVM, библиотек классов, фреймворков и приложений. Алексей занимается вопросами производительности на всех уровнях, от больших серверов приложений до микроархитектурных изысков, увлекается хардкорными вопросами в concurrency."
+	},
+	{
+	"id":7,
+	"firstName": "Сергей",
+	"lastName" : "Куксенко",
+	"company": "Oracle",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Oracle, Java Performance Engineer. Большой профессиональный опыт, включая Российскую Академию Наук, стартапы, а также такие крупные корпорации как Intel и Oracle. Опыт работы с Java более 15 лет, начиная с разнообразных клиентских и серверных приложений и заканчивая библиотеками и JIT-компиляторами. Последние 8 лет Сергей занимается вопросами производительности Java, включая JVM, библиотеки классов и прочее."
+	},
+	{
+	"id":8,
+	"firstName": "Talip",
+	"lastName" : "Ozturk",
+	"company": "Hazelcast",
+	"country":"Turkey",
+	"imageUrl":"",
+	"bio":"Talip Ozturk is the founder of Hazelcast. He has been working with enterprise Java since 1999. He worked as a consultant at MIC (Virginia), developer at a start-up company, Syncline (Boston) and sales architect at Itochu Technologies (New York). In 2003, he got fascinated by Jini and developed an implementation of JavaSpaces. In 2008, his passion for distributed programming led him to develop Hazelcast. Before Hazelcast, Talip was the director of technology at Zaman Media Group (Istanbul). In his free time, he enjoys playing soccer."
+	},
+	{
+	"id":9,
+	"firstName": "Jacek",
+	"lastName" : "Laskowski",
+	"company": "IBM",
+	"country":"Poland",
+	"imageUrl":"",
+	"bio":"Jacek Laskowski is the founder and a co-leader of the Warszawa Java User Group (Warszawa JUG). It works as a professional software specialist in the IBM World-wide WebSphere Competitive Migration Team to assist customers in their migrations from competitive Java EE application servers to IBM WebSphere Application Server. He develops applications, writes articles, mentors, records screencasts, delivers courses and reviews IT books. Jacek contributes to several open source projects with the longest track record in Apache OpenEJB. He regularly speaks at developer conferences. For his achievements he’s recently been appointed to the IBM Academy of Technology. He blogs at blog.japila.pl (en) and blog.jaceklaskowski.pl (pl). Follow him on twitter @jaceklaskowski. He has quite recently been active in StackOverflow."
+	},
+	{
+	"id":10,
+	"firstName": "Mohamed",
+	"lastName" : "Taman",
+	"company": "Efinance",
+	"country":"Egypt",
+	"imageUrl":"",
+	"bio":"Mohamed is a Systems Architect, Java team leader, and consultant with around 11 years experience in projects architecture, manage teams, delivery times, capacity plans and resource planning in case of concurrent projects / change requests development. Graduated with B.Sc in computer systems engineering. A JCP member working on JEE7 JSRs / Glassfish 4 evaluation, and a member of Adopt-A-JSR, Adopt OpenJDK, and FishCAT programs. Oracle Egypt Architects Club board member, with responsibility to define and put the correct architecture for Oracle customer’s projects in EMEA. Using JSE2+, JEE5+ , ORM, OOP, Sun, Oracle, IBM, Microsoft, Adobe, UML, and implementing high-level security solutions, coding quality standards and techniques for a startup companies alongside his employer projects. His career has taken him to different companies (Oracle, Silicon Expert & Intercom Enterprise), where he co-founded and works now as Systems architect, and Java TL at e-finance. also a frequent speaker at Java User Groups and conferences worldwide including JavaOne, JDC, and Devoxx. For further information and blogs visit https://en.gravatar.com/tamanm."
+	},
+	{
+	"id":11,
+	"firstName": "Sander",
+	"lastName" : "Mak",
+	"company": "Luminis Technologies",
+	"country":"Netherlands",
+	"imageUrl":"",
+	"bio":"After getting his master’s degree in Software Technology, Sander became a software developer/architect specializing in Java and application integration. Recently, data analysis and machine learning were added to his list of interests. Sander loves sharing knowledge, for example through his blog and by writing for the Dutch Java Magazine. He speaks regularly at various international developer conferences, sharing his passion for Java, alternative JVM languages and related technologies."
+	},
+	{
+	"id":12,
+	"firstName": "Jan Willem",
+	"lastName" : "Janssen",
+	"company": "Luminis Technologies",
+	"country":"Netherlands",
+	"imageUrl":"",
+	"bio":"Jan Willem works as software architect at Luminis Technologies. He has a strong interest in software architecture, modularity, and creating software systems that scale. Aside spending most of his time working on PulseOn and the Amdatu Platform, he is also an Apache committer and actively participates on several Apache projects, such as Apache ACE and Apache Felix."
+	},
+	{
+	"id":13,
+	"firstName": "Александр",
+	"lastName" : "Ильин",
+	"company": "Oracle",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Alexandre Iline is a senior quality engineer in Oracle, working as a quality architect on several products in Java portfilio and as a test tools architect for the Java SQE. Prior to that, Alexandre was playing a role of quality lead/architect of such products as Java Studio Creator and Netbeans. Before that, Alexandre was working as a member/lead of NetBeans QE tools team. Alexandre leads/led development for a number of test tools from test harnesses to metrics tools. In particular, Alexandre is the author of Jemmy – the open-source UI testing tool used widely for Swing/AWT UI applications testing as well as for testing of Swing itself. Jemmy v3 is a new generation tool developed/led by Alexandre which, along with the other UI libraries, allows to test FX UI. The tool is used successfully for testing Java FX SDK and Java FX products developed internally."
+	},
+	{
+	"id":14,
+	"firstName": "Владимир",
+	"lastName" : "Иванов",
+	"company": "Oracle",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Владимир является сотрудником компании Oracle и работает в группе разработки HotSpot JVM над JIT-компиляторами. Помимо плотной работы над виртуальной машиной Java от Oracle, принимал активное участие в большом количестве проектов, связанных с JVM и JDK в целом (например, Java Real-Time System, JavaFX)."
+	},
+	{
+	"id":15,
+	"firstName": "Bartosz",
+	"lastName" : "Majsak",
+	"company": "Cambridge Technology Partners",
+	"country":"Switzerland",
+	"imageUrl":"",
+	"bio":"Bartosz Majsak works as a software developer and consultant at Cambridge Technology Partners based in Zurich. He is a passionate about open source technologies and testing methodologies. In the spare time he is contributing to open source projects and writing technical articles. He is a JBoss Arquillian team member and lead of two modules – Persistence Extension which makes writing database oriented tests even easier and Spock Test Runner which gives your Arquillian tests some BDD and Groovy love. One thing which might prove that he is not a total geek is his addiction to alpine skiing. He used to play Go game."
+	},
+	{
+	"id":16,
+	"firstName": "Антон",
+	"lastName" : "Кекс",
+	"company": "Codeborne",
+	"country":"Эстония",
+	"imageUrl":"",
+	"bio":"Антон Кекс является мастером создания софта от начала до конца, одним из основателем компании Codeborne, единственной в Прибалтике занимающейся экстремальным программированием (XP), регулярным докладчиком на конференциях и лектором в Таллинском Техническом Университете. Он также искренне верит в открытый код и методы гибкой разработки (agile), является автором популярного во всём мире сетевого сканнера – Angry IP Scanner, и регулярным комиттером в другие проекты свободного ПО. До основания Codeborne Антон в течение 5-ти лет руководил командой разработчиков интернет-банка Swedbank, получившего множество наград, постепенно вводя в использование методы Agile. В то же время он основал организацию Agile Estonia, организующую регулярные конференции по теме Agile. В свободное время он играет на гитаре и дарбуке, катается на мотоцикле и путешествует в отдалённые уголки мира."
+	},
+	{
+	"id":17,
+	"firstName": "Олег",
+	"lastName" : "Шелаев",
+	"company": "ZeroTurnaround",
+	"country":"Эстония",
+	"imageUrl":"",
+	"bio":"Олег Шелаев – инженер компании ZeroTurnaround, где он занимается проблемами деплоймента Java приложений в рамках проекта LiveRebel. В этом ему помогает пятилетний опыт разработки как стандартных Java веб-инфосистем, так и полностью in-house решений на Java SE. Олег – частый участник Java конференций и любит путешествовать. В свободное от работы время Олег учится в докторантуре Тартуского университета и там же работает лектором и тренером ACM ICPC команд. Одними из его любимых занятий являются игра в шахматы и решение головоломок."
+	},
+	{
+	"id":18,
+	"firstName": "Елена",
+	"lastName" : "Сирота",
+	"company": "EPAM",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Опыт в IT 15 лет. Языки, с которыми были связаны проекты: C++, PL/SQL, Java. Работала на разных позициях – от разработчика до технического руководителя проекта. Сейчас занимается подготовкой младших разработчиков в компании EPAM Systems (Киев), преподает в НТУУ КПИ. Активный участник JUG KPI."
+	},
+	{
+	"id":19,
+	"firstName": "Роман",
+	"lastName" : "Сорока",
+	"company": "EPAM",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Роман работает Java разработчиком в EPAM Systems. Кроме многих достижений внутри компании, Роман активно занимается Community работой в JUG KPI, регулярно выступая с интересными докладами о последних технологиях в JVM-мире."
+	},
+	{
+	"id":20,
+	"firstName": "Иван",
+	"lastName" : "Соболев",
+	"company": "Lohika",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"5 лет разрабатывает распределенные системы в распределенных командах, прошлый год – в качестве лида. В свободное от разработки время автоматизирует тестирование и наблюдает за детищем. Его радуют велосипеды, альтимейт фрисби и горы."
+	},
+	{
+	"id":21,
+	"firstName": "Дмитрий",
+	"lastName" : "Чуйко",
+	"company": "Oracle",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Сотрудник компании Oracle с 2012 года (Java Platform), до этого занимался разработкой ПО, от мобильного до серверного. В прошлом сотрудник Deutsche Bank, QuickOffice, Yota, Borland. Выпускник СПбГУ."
+	},
+	{
+	"id":22,
+	"firstName": "Виктор",
+	"lastName" : "Полищук",
+	"company": "Инфопульс",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Практикующий Java технический лидер компании Infopulse Ukraine. Более 10 лет занимается профессиональной разработкой программного обеспечения из которых примерно 8 на Java. Эксперт в разработке на Java и JavaScript. Умен, талантлив и безумно харизматичен."
+	},
+	{
+	"id":23,
+	"firstName": "Руслан",
+	"lastName" : "Синицкий",
+	"company": "Jelastic",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Более 10 лет опыта разработки на языке Java: Руслан работал инженером отдела науки в Национальном космическом агентстве Украины, старшим GUI-разработчиком в Datamash Corp., был руководителем группы в SolovatSoft, занимал должность старшего UI-архитектора в iQueLab Ltd. Сейчас Руслан является генеральным директором компании Jelastic Inc., которую он основал в 2010 году. Основное направление деятельности инновационного проекта Jelastic – предоставление облачного хостинга для новых и уже существующих Java и PHP приложений. Платформа как сервис, разработанная компанией, существенно упрощает процесс разворачивания приложений в облаке, благодаря удобному пользовательскому интерфейсу и поддерживаемым технологиям."
+	},
+	{
+	"id":24,
+	"firstName": "Евгений",
+	"lastName" : "Геращенко",
+	"company": "JetBrains",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Последние полтора года работает над языком программирования Kotlin, в том числе над взаимодействием с кодом на Java и плагином к среде IntelliJ IDEA. До этого занимался интеграцией с VCS в системе языково-ориентированного программирования JetBrains MPS. Опыт программирования на Java около пяти лет. В прошлом учил программированию школьников и студентов."
+	},
+	{
+	"id":25,
+	"firstName": "Наталья",
+	"lastName" : "Ухорская",
+	"company": "JetBrains",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Работает в компании JetBrains со середины 2011 года, с самого начала в проекте Kotlin. В проекте в основном занимается back-end (генерацией bytecode), а также плагином к Intellij IDEA. До этого занималась реализацией Kotlin Web Demo."
+	},
+	{
+	"id":26,
+	"firstName": "Anton",
+	"lastName" : "Moiseev",
+	"company": "Farata Systems",
+	"country":"Russia",
+	"imageUrl":"",
+	"bio":"Anton Moiseev has been developing enterprise applications for 8 years with Java, JavaScript, and .NET technologies. He has a solid background developing rich Internet applications using various platforms. Currently he’s building e-Commerce applications based on Java EE platform. Anton has a strong focus on Web technologies implementing best practices to make the front-end work seamlessly with back-end. He’s a huge enthusiast of JavaScript and HTML5."
+	},
+	{
+	"id":27,
+	"firstName": "Николай",
+	"lastName" : "Чашников",
+	"company": "JetBrains",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Имеет 10 лет опыта коммерческой разработки на Java, последние 7 лет работает над продуктом IntelliJ IDEA в компании JetBrains. Занимался внутренней build-системой, интеграцией с application servers, поддержкой фреймворков Google App Engine и Google Web Toolkit, инфраструкторой для поддержки дебаггеров для разных языков и многими другими частями продукта."
+	},
+	{
+	"id":28,
+	"firstName":"Алексей",
+	"lastName":"Резчиков",
+	"company":"Cogniance",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Опытный Java разработчик и тимлид. В разное время работал project, resource, development и competency manager. Последователь Agile/Lean, а также сторонник XP инженерных практик. В данный момент занимается консалтингом по Testing Automation, Continuous Integration & Continuous Delivery. Активно пропагандирует использование Spring Framework в рамках проекта SpringByExample.com.ua."
+	},
+	{
+	"id":29,
+	"firstName":"Сергей",
+	"lastName":"Моренец",
+	"company":"Provectus IT",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Ведущий Java-разработчик в компании Provectus IT. Опыт в разработке более 12 лет, из них 8 лет Java(SE, EE), год работы руководителем команды в Exigen Services. Перешел на Java после 4 лет работы с Visual Basic и C#. Основным для себя направлением считает разработку enterprise приложений под Java EE с использованием баз данных (Oracle, MySQL)."
+	},
+	{
+	"id":30,
+	"firstName":"Иззет",
+	"lastName":"Мустафаев",
+	"company":"EPAM",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Работает с Java с 2007 года в EPAM Systems. Участвовал в разных проектах с разной сложностью от разработчика до системного архитектора. Активно продвигает идеи Agile, Clean Code и TDD практики в массы. Активный член EPAM Kyiv Agile User Group and JUG KPI."
+	},
+	{
+	"id":31,
+	"firstName":"Владимир",
+	"lastName":"Мигуро",
+	"company":"EPAM",
+	"country":"Беларусь",
+	"imageUrl":"",
+	"bio":"Java инженер в компании EPAM Systems, где занимается разработкой и проектированием информационных систем различного уровня сложности. Один из основателей Minsk MongoDB User Group. В последнее время активно работает над MongoDB Java Driver совместно с инженерами из компании 10gen."
+	},
+	{
+	"id":32,
+	"firstName":"Михаил",
+	"lastName":"Хлуднев",
+	"company":"GridDynamics",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Ведущий инженер по поиску. Года три тому назад в процессе работы над поисковой eCommerce платформой обнаружил, что классические подходы к поиску не работают для магазинов. О чем до сих пор оживлённо рассказывает. До поиска в основном занимался высоконагруженными eCommerce приложениями. Интересуется и имеет мнение по широкому кругу вопросов, начиная от архитектуры и алгоритмов вплоть до тестирования и командного духа. Мечтает писать на Clojure, но из-за занятия поиском шансы на это пока невелики."
+	},
+	{
+	"id":33,
+	"firstName":"Константин",
+	"lastName":"Кривопустов",
+	"company":"Haulmont",
+	"country":"Россия",
+	"imageUrl":"",
+	"bio":"Технический директор Haulmont, архитектор и один из основных разработчиков платформы CUBA, являющейся основой всех продуктов компании. Опыт работы с Java – 10 лет, всего опыт разработки бизнес-приложений – более 15 лет. Начинал с участия в разработке тиражируемой системы управления предприятием, затем MES для автомобильного производства. В 2006-2008 годах был техническим руководителем проекта для Addison Lee – крупнейшего оператора minicabs (такси) в Лондоне, предъявлявшего жесточайшие требования по производительности и отказоустойчивости решения. В данный момент занимается разработкой ядра платформы, вопросами модульности и отказоустойчивости приложений, а также руководит созданием инструментов, повышающих эффективность процесса разработки ПО."
+	},
+	{
+	"id":34,
+	"firstName":"Сергей",
+	"lastName":"Кукурудзяк",
+	"company":"Backendless Corp.",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Общий опыт в IТ 8 лет. Являясь архитектором и Java тимлидом платформы Backendless, cтроит одноименный облачный бэкенд как сервис. До этого руководил разработкой .NET продуктов в Миднайт Кодерс. Помимо Java имеет более 5 лет боевого опыта в разных технологиях включая .NET, Javascript, AJAX, jQuery и PHP. На данном этапе фокусируется на разработке высоконагруженых распределенных систем, облачных вычислениях и RESTfull сервисах."
+	},
+	{
+	"id":35,
+	"firstName":"Роман",
+	"lastName":"Шрамков",
+	"company":"EPAM",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Chief Software Engineer в EPAM Systems, практикующий адвокат Agile в управлении корпоративными проектами, активный двигатель технических практик таких как Clean Code, refactoring, TDT и Pair Programming. В IT индустрии уже более 10 лет, 7 из которых связаны с построением крупных корпоративных Java приложений. За это время успел поучаствовать во множестве проектов в том числе и как архитектор. Сейчас использует накопленный опыт для постановки процессов разработки ПО и консультирования в области дизайна и технических практик."
+	},
+	{
+	"id":36,
+	"firstName":"Gregory",
+	"lastName":"Bondar",
+	"company":"Wix",
+	"country":"Israel",
+	"imageUrl":"",
+	"bio":"Gregory Bondar is Sr. Director of BI and Data Services in Wix Company. He is working on development of BI and complex event processing (CEP) platform which is based on wide range of the technologies: Hadoop, HBase, Pig, Oozie, Zookeeper, Flume, Storm, Esper. As VP of R&D of several start-up companies he was responsible for architecture design and implementation of online consumer services, Telco and Enterprise-grade SaaS applications, data center automation and cloud management platforms, virtualization solutions. He is Ph.D. in Computer Science from the University of Aviation, Russia, with over 20 years’ experience in the software industry, 14 patents and 13 scientific publications."
+	},
+	{
+	"id":37,
+	"firstName":"Игорь",
+	"lastName":"Анищенко",
+	"company":"Lohika",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Java разработчик компании Lohika c опытом более 5 лет разработки ПО. Имеет большой опыт работы с различными Java-технологиями. Работал в должности Java Developer, Team Lead на проектах компании Hewlett-Packard и занимался разработкой agentless monitoring software. Занимается разработкой распределенных систем хранения и обработки больших объемов данных в облаке на базе NoSQL решения Cassandra и MongoDB."
+	},
+	{
+	"id":38,
+	"firstName":"Paweł",
+	"lastName":"Lipiński",
+	"company":"Pragmatists",
+	"country":"Poland",
+	"imageUrl":"",
+	"bio":"A programmer with over 14 years of professional experience, solution architect, team coach and trainer in agile processes and practices. Frequent speaker on Java and Agile conferences. Co-creator of Agile Warsaw group. Author of tumbler-glass, a BDD framework for Java. For over 3 years leads a software house in Warsaw called Pragmatists, this way he’s realising and verifying what he talks about."
+	},
+	{
+	"id":39,
+	"firstName":"Владимир",
+	"lastName":"Кириллов",
+	"company":"Universal Mind",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Молодой инженер в самом расцвете сил. Эксплуатировал много джавы в цдн, доэксплуатировался и начал на ней писать. Потом уволился, пришел на другую работу, а там опять джава. Решил писать на Clojure и очень доволен. В мире IT известен как @darkproger."
+	},
+	{
+	"id":40,
+	"firstName":"Олег",
+	"lastName":"Цаль-Цалько",
+	"company":"EPAM",
+	"country":"Украина",
+	"imageUrl":"",
+	"bio":"Senior Java Developer in EPAM Systems. Mostly working with enterprise business applications. Member of LJC and JUG KPI communities. Also involved in Adopt JSR program. Last time interested in Cloud computing, NoSQL and Scalability/HA aspects in general. Looking forward to learn more from other professionals and to share my knowledge with others. Love skiing and good company…"
+	}
+]
